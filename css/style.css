@@ -374,7 +374,7 @@ footer .footer__container .footer__container__link {
   flex-direction: row;
   padding: 35px;
   gap: 50%;
-  width: 100%;
+  width: 95%;
 }
 footer .footer__container .footer__container__link .link__logo,
 footer .footer__container .footer__container__link .link__nologo__container {
