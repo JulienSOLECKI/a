@@ -342,7 +342,7 @@ footer .footer__container .footer__container__link .footer__logo {
   margin-right: 5px;
 }
 
-@media only screen and (min-width: 1445px) {
+@media only screen and (min-width: 1295px) {
   main .functioning h2 {
     text-align: center;
   }
@@ -373,7 +373,7 @@ footer .footer__container h4 {
 footer .footer__container .footer__container__link {
   flex-direction: row;
   padding: 35px;
-  gap: 50%;
+  gap: 75%;
   width: 95%;
 }
 footer .footer__container .footer__container__link .link__logo,
