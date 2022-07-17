@@ -37,7 +37,7 @@ main {
   height: 250px;
   border-radius: 50%;
   border: 7px solid transparent;
-  border-top-color: #9356DC;
+  border-bottom-color: #9356DC;
   animation: spin 2s linear infinite;
 }
 .loader_container .loader::before, .loader_container .loader::after {
@@ -48,12 +48,12 @@ main {
 }
 .loader_container .loader::before {
   inset: 10px;
-  border-top-color: #FF79DA;
+  border-bottom-color: #FF79DA;
   animation: spin 3s linear infinite;
 }
 .loader_container .loader::after {
   inset: 25px;
-  border-top-color: #99E2D0;
+  border-bottom-color: #99E2D0;
   animation: spin 1.5s linear infinite;
 }
 
