@@ -17,7 +17,7 @@
         height: 250px;
         border-radius: 50%;
         border: 7px solid transparent;
-        border-top-color: $Primaire;
+        border-bottom-color: $Primaire;
         animation: spin 2s linear infinite;
         &::before,
         &::after {
@@ -28,12 +28,12 @@
         }
         &::before {
             inset: 10px;
-            border-top-color: $Secondaire;
+            border-bottom-color: $Secondaire;
             animation: spin 3s linear infinite;
         }
         &::after {
             inset: 25px;
-            border-top-color: $Tertiaire;
+            border-bottom-color: $Tertiaire;
             animation: spin 1.5s linear infinite;
         }
     }
